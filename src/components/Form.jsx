@@ -1,7 +1,7 @@
 import { Formik } from 'formik';
 import { Text, TextInput, TouchableOpacity, View } from 'react-native';
 import * as Yup from 'yup';
-import styles from '../app/styles.js';
+import styles from '../style/styles.js';
 
 
 const FormSchema = Yup.object().shape({

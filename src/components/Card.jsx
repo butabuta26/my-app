@@ -1,5 +1,5 @@
-import { FlatList, View, Text } from 'react-native';
-import styles from '../app/styles.js';
+import { FlatList, Text, View } from 'react-native';
+import styles from '../style/styles.js';
 
 export default function Card({ cards }) {
     return (
